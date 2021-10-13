@@ -9,6 +9,5 @@
 
 # Proofs
 
-[Image 1](https://media.discordapp.net/attachments/682561643795972108/897919757603463218/unknown.png)
-
-[No more dm for role](https://media.discordapp.net/attachments/682561643795972108/897919991364608081/unknown.png)
+[![Audit Log](https://media.discordapp.net/attachments/682561643795972108/897919757603463218/unknown.png)](https://discord.com/users/659038301331783680)
+[![No more dm for role](https://media.discordapp.net/attachments/682561643795972108/897919991364608081/unknown.png)](https://discord.com/users/659038301331783680)
