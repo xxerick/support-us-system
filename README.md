@@ -1,5 +1,5 @@
 # Support Us Bot
-**This bot is for people who have servers and want to give role if a user have a status.**
+**This bot is for people who have servers and want to give role if a user have a custom status.**
 *No more dm for role*
 
 # Installation
