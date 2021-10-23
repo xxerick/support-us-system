@@ -1,0 +1,13 @@
+{
+  "name": "support bot",
+  "version": "1.0.0",
+  "description": "baby boss",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
