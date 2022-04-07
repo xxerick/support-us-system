@@ -28,6 +28,7 @@ client.on("presenceUpdate", async (oldMember, newMember) => {
                      const embed = new Discord.MessageEmbed()
                     .setTitle(`Status Added`)
                     .setColor(`#2F3136`)
+                    .setFooter(`Made by baby#1337`)
                     .setDescription(`\`${member.user.tag}\` added the status and got the role \`${role.name}\``)
                     client.channels.cache.get(config.logs).send(embed)
             } else {
@@ -35,6 +36,7 @@ client.on("presenceUpdate", async (oldMember, newMember) => {
                     const embed = new Discord.MessageEmbed()
                     .setTitle(`Status Removed or Offline`)
                     .setColor(`#2F3136`)
+                    .setFooter(`Made by baby#1337`)
                     .setDescription(`\`${role.name}\` revoked from \`${member.user.tag}\``)
                     client.channels.cache.get(config.logs).send(embed)
                     member.roles.remove(roleId, 'Support System | baby#1337')
