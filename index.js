@@ -22,7 +22,7 @@ client.on("presenceUpdate", async (oldMember, newMember) => {
             let status = newMember.activities.map(a => a.state)
             const member = guild.members.cache.get(newMember.user.id);
             if (!member) return;
-            if (status[0] && status[0].includes(message)) {
+            if (status[0] != null && status[0].includes(message)) {
                 member.roles.add(roleId, 'Support System | baby#1337')
                      const embed = new Discord.MessageEmbed()
                     .setTitle(`Status Added`)
