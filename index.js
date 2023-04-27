@@ -12,9 +12,8 @@ client.on("ready", () => {
 });
 
 client.on("presenceUpdate", async (oldMember, newMember) => {
-            const guild = oldMember.guild
-
             if (!oldMember || !newMember) return;
+            const guild = oldMember.guild
             if(oldMember.status !== newMember.status) return
             const roleId = config.roleId;
             const message = config.message;
